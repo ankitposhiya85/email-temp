@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    color: black;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: "Termina Test";
+    src: url(../TerminaTest-Regular.otf);
+}
+
+@font-face {
+    font-family: "Termina Test bold";
+    src: url(../TerminaTest-Bold.otf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../Montserrat/static/Montserrat-Regular.ttf);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.home-img {
+    position: relative;
+    border-radius: 0 0 20px 20px;
+}
+
+.shadow{
+    height: 497px;
+    width: 800px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: black;
+    opacity: 40%;
+    position: absolute;
+}
+
+.logo-bg{
+    width: 266px;
+    height: 266px;
+    top: -126px;
+    left: -80px;
+    opacity: 40%;
+    position: absolute;
+    background: rgba(87, 87, 87, 1);
+    border-radius: 100%;
+}
+
+.nav {
+    position: absolute;
+    justify-content: space-between;
+    top: 20px;
+}
+
+.nav h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(248, 201, 88, 1);
+    line-height: 22.32px;
+    font-family: "Termina Test";
+}
+
+.home-text {
+    position: absolute;
+    color: white;
+    width: 434px;
+    height: 194px;
+    top: 173px;
+    left: 40px;
+    border-radius: 5px;
+    border: 0.5px solid #FFFFFF2E;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.80) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.17) 100%);
+}
+
+.home-text h4 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family: "Termina Test";
+}
+
+.home-text p {
+    width: 399px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: "Termina Test";
+}
+
+.section1 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1-heading {
+    font-family: "Termina Test";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 642px;
+    margin-bottom: 20px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.section1-points {
+    width: 386px;
+    margin-bottom: 16px;
+}
+
+.title img {
+    margin-right: 10px;
+}
+
+.title h4 {
+    font-family: "Termina Test";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.section1-points p {
+    font-family: "Termina Test";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 386px;
+}
+
+.section3-img {
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3-shadow {
+    width: 800px;
+    height: 644px;
+    opacity: 85%;
+    position: absolute;
+    background-color: #000000;
+}
+
+.properties {
+    position: absolute;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 644px;
+}
+
+.properties-title {
+    color: white;
+    font-family: "Termina Test";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 642px;
+    margin-bottom: 30px;
+}
+
+.property-detail {
+    width: 225.67px;
+    height: 264.63px;
+    border-radius: 5.37px;
+    background-color: white;
+}
+
+.property-list {
+    gap: 21.49px;
+    margin-bottom: 21px;
+}
+
+.property1 {
+    margin-left: 6.72px;
+    margin-top: 9.4px;
+    margin-right: 6.72px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.property1 h5 {
+    font-family: "Termina Test bold";
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.property1 h6 {
+    font-family: "Termina Test";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.property1 h3 {
+    font-family: "Termina Test bold";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.bedroom {
+    width: 41px;
+    height: 20.15px;
+    margin-left: 6.72px;
+    margin-top: 6.22px;
+    border-radius: 3.12px 0 0 3.12px;
+    border: 0.39px solid rgba(164, 164, 164, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bedroom img {
+    width: 6.23px;
+    height: 6.23px;
+
+}
+
+.bedroom p {
+    margin-bottom: 0;
+    width: 31px;
+    font-family: "Montserrat";
+    font-size: 5px;
+    font-weight: 600;
+    line-height: 6.98px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.bathroom {
+    width: 81px;
+    height: 20.15px;
+    margin-top: 6.22px;
+    border: 0.39px solid rgba(164, 164, 164, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bathroom img {
+    width: 6.23px;
+    height: 6.23px;
+
+}
+
+.bathroom p {
+    margin-bottom: 0;
+    width: 67px;
+    font-family: "Montserrat";
+    font-size: 5px;
+    font-weight: 600;
+    line-height: 6.98px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.area {
+    width: 61px;
+    height: 20.15px;
+    margin-top: 6.22px;
+    border: 0.39px solid rgba(164, 164, 164, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.area img {
+    width: 6.23px;
+    height: 6.23px;
+
+}
+
+.area p {
+    margin-bottom: 0;
+    width: 48px;
+    font-family: "Montserrat";
+    font-size: 5px;
+    font-weight: 600;
+    line-height: 6.98px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.type {
+    width: 30px;
+    height: 20.15px;
+    margin-top: 6.22px;
+    border-radius: 0 3.12px 3.12px 0;
+    border: 0.39px solid rgba(164, 164, 164, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.type h6 {
+    font-family: "Montserrat";
+    font-size: 5px;
+    font-weight: 400;
+    line-height: 7px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.type p {
+    margin-bottom: 0;
+    width: 17px;
+    font-family: "Montserrat";
+    font-size: 5px;
+    font-weight: 600;
+    line-height: 6.98px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
